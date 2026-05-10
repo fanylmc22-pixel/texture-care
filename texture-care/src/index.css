@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=DM+Sans:wght@400;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-surface: #faf9f5;
+  --color-on-surface: #1b1c1a;
+  --color-on-surface-variant: #434843;
+  --color-primary: #172a1e;
+  --color-surface-container-low: #f4f4f0;
+  --color-surface-container: #efeeea;
+  --color-outline-variant: #c3c8c1;
+
+  --font-display-lg: "Poppins", sans-serif;
+  --font-display-lg-mobile: "Poppins", sans-serif;
+  --font-headline-lg: "Poppins", sans-serif;
+  --font-headline-lg-mobile: "Poppins", sans-serif;
+  --font-headline-md: "Poppins", sans-serif;
+  --font-body-lg: "DM Sans", sans-serif;
+  --font-body-md: "DM Sans", sans-serif;
+  --font-label-caps: "DM Sans", sans-serif;
+
+  --text-display-lg: 48px;
+  --text-display-lg--line-height: 1.1;
+  --text-display-lg--letter-spacing: -0.02em;
+
+  --text-display-lg-mobile: 36px;
+  --text-display-lg-mobile--line-height: 1.1;
+
+  --text-headline-lg: 32px;
+  --text-headline-lg--line-height: 1.2;
+
+  --text-headline-lg-mobile: 28px;
+  --text-headline-lg-mobile--line-height: 1.2;
+
+  --text-headline-md: 24px;
+  --text-headline-md--line-height: 1.3;
+
+  --text-body-lg: 18px;
+  --text-body-lg--line-height: 1.6;
+
+  --text-body-md: 16px;
+  --text-body-md--line-height: 1.6;
+
+  --text-label-caps: 12px;
+  --text-label-caps--line-height: 1;
+  --text-label-caps--letter-spacing: 0.1em;
+
+  --spacing-margin-mobile: 20px;
+  --spacing-margin-desktop: 64px;
+  --spacing-gutter: 24px;
+  --spacing-base: 8px;
+  --spacing-section-gap: 120px;
+  --spacing-container-max: 1280px;
+
+  --shadow-ambient: 0px 4px 20px rgba(45, 64, 51, 0.05);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-surface);
+  color: var(--color-on-surface);
+  font-family: var(--font-body-md);
+  font-size: var(--text-body-md);
+  line-height: var(--text-body-md--line-height);
+}
